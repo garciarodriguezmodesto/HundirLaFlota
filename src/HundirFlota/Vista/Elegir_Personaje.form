@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HundirFlota.Controlador.Elegir_Personaje">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="647" height="568"/>
+    </constraints>
+    <properties>
+      <background color="-2307151"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="51ef4" binding="panel_central" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <background color="-14932674"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="75b48" binding="panel_izq" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="20" bottom="10" right="20" weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14932674"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="74111" binding="panel_izq_arriba" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-1644826"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d14fb" class="javax.swing.JLabel" binding="foto_jugador_1">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="HundirFlota/Fotos_HF/personaje1.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                  <component id="c2d62" class="javax.swing.JLabel" binding="label_jugador1">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="18" style="1"/>
+                      <foreground color="-14932674"/>
+                      <text value="Jugador 1"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="66579" binding="panel_izq_abajo" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-14932674"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="f0c4c" class="javax.swing.JTextField" binding="textfield_jugador1">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag top="10" left="0" bottom="10" right="0" weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1644826"/>
+                      <font name="Arial" size="16"/>
+                      <foreground color="-14932674"/>
+                    </properties>
+                  </component>
+                  <component id="2c95b" class="javax.swing.JLabel" binding="label_escribe_nombre">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="18" style="1"/>
+                      <foreground color="-2307151"/>
+                      <text value="Escribe un nombre"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="b73dc" binding="panel_der" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="20" bottom="10" right="20" weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-14932674"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f7669" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-1644826"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="bfd4b" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="18" style="1"/>
+                      <foreground color="-14932674"/>
+                      <text value="Jugador 2"/>
+                    </properties>
+                  </component>
+                  <component id="5788d" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag top="10" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <icon value="HundirFlota/Fotos_HF/personaje2.png"/>
+                      <text value=""/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="a2609" layout-manager="GridBagLayout">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="0" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <background color="-14932674"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d230a" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                      <gridbag weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <font name="Arial" size="18" style="1"/>
+                      <foreground color="-2307151"/>
+                      <text value="Escribe un nombre"/>
+                    </properties>
+                  </component>
+                  <component id="98b9f" class="javax.swing.JTextField">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="-1"/>
+                      </grid>
+                      <gridbag top="10" left="0" bottom="10" right="0" weightx="1.0" weighty="1.0"/>
+                    </constraints>
+                    <properties>
+                      <background color="-1644826"/>
+                      <font name="Arial" size="16"/>
+                      <foreground color="-14932674"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="3167f" binding="panel_subtitulo" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-14932674"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3bd3c" class="javax.swing.JLabel" binding="label_subtitulo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial" size="24" style="1"/>
+              <foreground color="-2307151"/>
+              <text value="Selección De Personaje"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="6d67b" binding="panel_titulo" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1644826"/>
+          <enabled value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="73ce3" class="javax.swing.JLabel" binding="titulo">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <font name="Impact" size="60" style="1"/>
+              <foreground color="-14932674"/>
+              <text value="HUNDIR LA FLOTA"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f22a" binding="panel_botones" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="0" bottom="10" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1644826"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="395f3" class="javax.swing.JButton" binding="boton_iniciar">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-14932674"/>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-1644826"/>
+              <text value="INICIAR"/>
+            </properties>
+          </component>
+          <component id="ffcb0" class="javax.swing.JButton" binding="boton_salir">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-7006162"/>
+              <font name="Arial Black" size="18"/>
+              <foreground color="-1644826"/>
+              <text value="SALIR"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

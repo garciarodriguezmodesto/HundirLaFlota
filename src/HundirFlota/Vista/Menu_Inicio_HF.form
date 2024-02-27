@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="HundirFlota.Controlador.Menu_Inicio_HF">
+  <grid id="27dc6" binding="mainpanel" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="675" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-2307151"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="954d" binding="panel_central" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="20" bottom="0" right="20" weightx="1.0" weighty="1.0"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-14932674"/>
+        </properties>
+        <border type="none">
+          <font/>
+          <title-color color="-4473925"/>
+          <color color="-2307151"/>
+        </border>
+        <children>
+          <grid id="2cc8d" binding="panel_titulo" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="10" bottom="20" right="0" weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a5857" class="javax.swing.JLabel" binding="titulo">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="20" left="0" bottom="0" right="10" weightx="1.0" weighty="1.0"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="Impact" size="86" style="1"/>
+                  <foreground color="-1908251"/>
+                  <text value="HUNDIR LA FLOTA"/>
+                </properties>
+              </component>
+              <component id="1d98d" class="javax.swing.JLabel" binding="subtitulo">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                  <gridbag top="0" left="0" bottom="0" right="10" weightx="0.0" weighty="0.0"/>
+                </constraints>
+                <properties>
+                  <font name="Impact" size="60" style="1"/>
+                  <foreground color="-1"/>
+                  <text value="BATTLESHIP"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="19d1d" binding="panel_botones" layout-manager="GridBagLayout">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="60" left="40" bottom="20" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <foreground color="-2307151"/>
+              <opaque value="false"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="291d2" class="javax.swing.JButton" binding="boton_salir">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0" ipadx="30"/>
+                </constraints>
+                <properties>
+                  <background color="-7006162"/>
+                  <font name="Arial Black" size="24"/>
+                  <foreground color="-1908251"/>
+                  <text value="SALIR"/>
+                </properties>
+              </component>
+              <vspacer id="6655b">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="0.0" weighty="0.0"/>
+                </constraints>
+              </vspacer>
+              <component id="a82c0" class="javax.swing.JButton" binding="boton_jugar">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                  <gridbag weightx="1.0" weighty="1.0" ipadx="30"/>
+                </constraints>
+                <properties>
+                  <background color="-2307151"/>
+                  <font name="Arial Black" size="24"/>
+                  <foreground color="-14932674"/>
+                  <text value="JUGAR"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
