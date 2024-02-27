@@ -1,5 +1,7 @@
+import HundirFlota.Controlador.Colocar;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Colocar.startUI(args[0]);
     }
 }
