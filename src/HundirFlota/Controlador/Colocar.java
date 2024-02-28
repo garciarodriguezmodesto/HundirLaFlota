@@ -38,7 +38,7 @@ public class Colocar {
         frame.setContentPane(new Colocar(playerName).mainPanel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setBounds(500,200,800,900);
+        frame.setBounds(0,0,750,950);
         frame.setVisible(true);
     }
 

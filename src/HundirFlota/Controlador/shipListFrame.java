@@ -60,6 +60,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 5, 1, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -81,6 +82,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 5, 0, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -88,6 +90,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 5, 2, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -108,6 +111,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 4, 3, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -115,6 +119,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 4, 1, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -136,6 +141,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 4, 0, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -143,6 +149,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 4, 2, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -164,6 +171,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 3, 3, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -171,6 +179,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 3, 1, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -192,6 +201,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 3, 0, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -199,6 +209,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 3, 2, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -219,6 +230,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 2, 3, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -226,6 +238,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 2, 1, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -247,6 +260,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 2, 0, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -254,6 +268,7 @@ public class shipListFrame {
                 b.addActionListener(new ActionListener() {
                     @Override
                     public void actionPerformed(ActionEvent e) {
+                        Ship.colocarBarco(iSelected, jSelected, 2, 2, Colocar.map, Colocar.ships , Colocar.frame);
                         HundirFlota.Controlador.shipListFrame.shipListFrame.dispose();
                     }
                 });
@@ -273,6 +288,7 @@ public class shipListFrame {
         b.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
+                Ship.colocarBarco(iSelected, jSelected, 1, 3, Colocar.map, Colocar.ships , Colocar.frame);
             }
         });
         a1x1.add(b);

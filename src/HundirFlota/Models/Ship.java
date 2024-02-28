@@ -48,7 +48,7 @@ public class Ship {
             case 1:
                 try {
                     for (int i = 0; i < longSize; i++) {
-                        if(map[positionX + i][positionY].isBoat()) {
+                        if(map[positionX][positionY - i].isBoat()) {
                             throw new Exception("Barco posicionado");
                         }
                         positions.add(map[positionX][positionY - i]);
@@ -67,7 +67,7 @@ public class Ship {
             case 2:
                 try{
                     for(int i = 0; i < longSize; i++){
-                        if(map[positionX + i][positionY].isBoat()) {
+                        if(map[positionX-i][positionY].isBoat()) {
                             throw new Exception("Barco posicionado");
                         }
                         positions.add(map[positionX-i][positionY]);
@@ -85,7 +85,7 @@ public class Ship {
             case 3:
                 try{
                     for(int i = 0; i < longSize; i++){
-                        if(map[positionX + i][positionY].isBoat()) {
+                        if(map[positionX][positionY+i].isBoat()) {
                             throw new Exception("Barco posicionado");
                         }
                         positions.add(map[positionX][positionY+i]);
